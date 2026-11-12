@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "name": "SpireSense",
+  "author": "m4rv1n33",
+  "description": "Shows Slay the Spire 2 game state on the SteelSeries OLED via GameSense.",
+  "version": "0.1.0",
+  "game_version": "*",
+  "target_display": "both",
+  "pck_name": ""
+}

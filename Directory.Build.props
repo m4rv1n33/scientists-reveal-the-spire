@@ -1,0 +1,14 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!-- Optional, untracked per-machine overrides (e.g. SteamCommonDir). -->
+  <Import Project="$(MSBuildThisFileDirectory)Directory.Build.props.user"
+          Condition="Exists('$(MSBuildThisFileDirectory)Directory.Build.props.user')" />
+
+</Project>
